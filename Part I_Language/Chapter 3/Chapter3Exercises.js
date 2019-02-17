@@ -6,4 +6,9 @@ function mathMin(a, b){
 
 mathMin(2, 30); // --> 2
 
+// same end result, using arrow function instead ----------------
+mathMin = (a, b) => {return Math.min(a, b)};
+
+mathMin(2, 30); // --> 2
+
 // 2)
